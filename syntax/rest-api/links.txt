@@ -1,0 +1,55 @@
+links.txt
+Created Tue Mar  5 10:16:29 AKST 2019
+by Raymond E. Marcil <ray.marcil@alaska.gov>
+
+
+REST API related links
+
+
+Links
+=====
+[1] client libraries
+https://docs.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-5.0#client-libraries
+
+A Python Web App calling the Microsoft Graph API,
+leveraging ADAL Python 
+https://github.com/Azure-Samples/active-directory-python-webapp-graphapi
+
+Azure Active Directory Authentication Libraries
+11/30/2018
+Supports Python, ADAL
+https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries
+
+Azure DevOps Services REST API Reference
+08/03/2016
+Welcome to the Azure DevOps Services REST API Reference.
+Representational State Transfer (REST) APIs are service
+endpoints that support sets of HTTP operations (methods),
+which provide create, retrieve, update, or delete access
+to the service's resources. This article walks you through:
+o The basic components of a REST API request/response pair.
+o Overviews of creating and sending a REST request, and
+  handling the response.
+Most REST APIs are accessible through our client libraries[1],
+which can be used to greatly simplify your client code.
+o Components of a REST API request/response pair
+https://docs.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-5.0
+
+Choosing the right authentication mechanism
+06/29/2017
+https://docs.microsoft.com/en-us/azure/devops/integrate/get-started/authentication/authentication-guidance?view=azure-devops
+
+Client Libraries
+Discover the client libraries for these REST APIs.
+o .NET conceptual documentation and .NET reference documentation
+  https://docs.microsoft.com/en-us/azure/devops/integrate/concepts/dotnet-client-libraries
+  https://docs.microsoft.com/en-us/dotnet/api/index?view=azure-devops-dotnet
+o Node.js
+  https://github.com/Microsoft/vsts-node-api
+o Python
+  https://github.com/Microsoft/vsts-python-api
+o Swagger 2.0
+  https://github.com/MicrosoftDocs/vsts-rest-api-specs
+o Web Extensions SDK
+  https://github.com/Microsoft/vss-web-extension-sdk
+https://docs.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-5.0#client-libraries
