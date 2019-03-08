@@ -1,0 +1,28 @@
+create-new-project.txt
+Created Wed Dec 19 10:10:37 AST 2018
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Create new project
+
+
+To create a new project in TFS:
+
+1. Open http://myhost:8080/tfs in browser
+click Administer on right
+
+2. Under Administration tasks
+click View the collection administration page
+
+3. Under Projects
+click New team project
+
+4. At CREATE NEW TEAM PROJECT
+Populate project attributes:
+
+  Project name:     <the project name>
+  Description:      <project description>
+  Project template: Agile   <=== Seems appropriate
+  Version control:  Team Foundation Version Control ===> Git
+
+click Create project
