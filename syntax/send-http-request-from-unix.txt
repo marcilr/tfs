@@ -1,6 +1,6 @@
 send-http-request-from-unix.txt
 Created Tue Jan 29 15:21:30 AKST 2019
-by Raymond E. Marcil <ray.marcil@alaska.gov>
+by Raymond E. Marcil <marcilr@gmail.com>
 
 
 Send HTTP request from UNIX
