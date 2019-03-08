@@ -8,9 +8,6 @@ Filelist
 cmds.txt
   vsts commands
 
-conf.txt
-  Configuration of vsts
-
 INSTALL
   Installation of vsts on Debian 9.8 am64 oracle vm virtualbox
 
