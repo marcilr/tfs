@@ -17,3 +17,7 @@ http://www.tfstutorial.com/tf-command
 Use Team Foundation version control commands
 08/09/2016
 https://docs.microsoft.com/en-us/azure/devops/repos/tfvc/use-team-foundation-version-control-commands?view=azure-devops
+
+USING TEAM FOUNDATION SERVER FOR VERSION CONTROL FROM A LINUX CLIENT
+OCTOBER 3, 2016 ROBSTANFIELD
+http://ras-software-blog.com/?p=63
