@@ -1,0 +1,29 @@
+tokens.txt
+Created Fri Mar  8 14:52:46 AKST 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Tokens
+
+
+Authenticate access with personal access tokens
+01/24/2019
+
+Azure DevOps Services | Azure DevOps Server 2019 | TFS 2018 | TFS 2017
+
+Personal access tokens (PATs) are alternate passwords that
+you can use to authenticate in to Azure DevOps.  In this article,
+we walk you through how to create or revoke PATS.
+
+Azure DevOps use enterprise-grade authentication to help protect
+and secure your data. Clients like Visual Studio and Eclipse
+(with the Team Explorer Everywhere plug-in) also support
+Microsoft account and Azure AD authentication.
+--docs.microsoft.com/...
+
+
+Links
+=====
+Authenticate access with personal access tokens
+01/24/2019
+https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops
