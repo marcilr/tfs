@@ -37,6 +37,32 @@ iii. Run installation script:
      # ./cli-install
 
 
+Commands
+========
+$ vsts --help
+
+Group
+    vsts
+
+Subgroups:
+    admin     : Administration commands.
+    build     : Commands to work with and manage builds.
+    code      : Commands to work with and manage code repositories.
+    package   : Commands to work with and manage packages.
+    project   : Commands to work with and manage team projects.
+    release   : Commands to work with and manage releases.
+    work      : Commands to work with and manage work items.
+
+Commands:
+    configure : Configure the VSTS CLI or view your configuration.
+    feedback  : Displays information on how to provide feedback to the VSTS CLI team.
+    login     : Set the credential (PAT) to use for a particular account.
+    logout    : Clear the credential for a particular account.
+
+$
+
+
+
 Links
 =====
 Install on Linux
