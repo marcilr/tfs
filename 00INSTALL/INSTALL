@@ -1,0 +1,171 @@
+INSTALL
+Created Tue Mar  5 13:36:38 AKST 2019
+by Raymond E. Marcil <ray.marcil@alaska.gov>
+
+
+Installation of tf (Microsoft team foundation client)
+on Debian 9.8 amd64 vm
+
+1. Download the tf (Microsoft team foundation) cli 
+Anywhere Client:
+
+Microsoft Team Explorer Everywhere 2015
+(Out-of-date versions 14.0.2-14.0.3 for legacy systems) 
+  https://www.microsoft.com/en-us/download/details.aspx?id=47727   <===
+
+For the newest version of Team Explorer Everywhere, please visit
+https://github.com/Microsoft/team-explorer-everywhere/releases.
+Team Explorer Everywhere includes the Eclipse plug-in and the
+cross-platform, command-line client for Visual Studio Team Foundation
+Server 2010, 2012, 2013, 2015 and Visual Studio Team Services. 
+
+Requirements:
+  o Linux with GLIBC 2.3+ (x86, x86_64, PowerPC)
+  o Oracle Java™ 1.6+ or IBM Java™ 1.6+ on Microsoft Windows
+  o Visual Studio Team Services
+  o Visual Studio Team Foundation Server 2010-2015
+
+a. Unzip the TEE-CLC-14.0.3.zip download:
+$ unzip TEE-CLC-14.0.3.zip 
+Archive:  ../TEE-CLC-14.0.3.zip
+  inflating: TEE-CLC-14.0.3/lib/com.microsoft.tfs.checkinpolicies.workitempolicy.jar  
+  inflating: TEE-CLC-14.0.3/lib/com.microsoft.tfs.checkinpolicies.workitemquerypolicy.jar  
+  inflating: TEE-CLC-14.0.3/native/linux/x86_64/libnative_synchronization.so
+  ...
+  inflating: TEE-CLC-14.0.3/native/win32/x86_64/native_auth.dll
+$
+
+b. Check out expanded TEE-CLC-14.0.3.zip
+$ cd TEE-CLC-14.0.3/
+$ ls
+$ help/  lib/  license.html  native/  tf  tf.cmd  ThirdPartyNotices.html
+$ file tf
+tf: POSIX shell script, ASCII text executable
+$
+
+2. To install tfs plugin for eclipse or tfs cli client:
+
+Installing the Team Foundation Server Plug-in For Eclipse
+---------------------------------------------------------
+You must install the plug-in before you can use it in your
+development processes.  You can install into Eclipse directly
+from the update site, or you can install from the Eclipse
+Update Site Archive.
+
+To install from the Eclipse update site:
+
+1.  Open Eclipse.
+2.  On the Help menu, choose Install New Software.
+3.  The Install dialog box appears.
+4.  Choose the Add button.
+5.  The Add Repository dialog box appears.
+6.  For the name, enter "TFS plug-in for Eclipse"
+7.  Specify the location of the update site:
+    http://dl.microsoft.com/eclipse/tfs
+8.  Choose the OK button.
+9.  In the list of features in the Install dialog box, select the check box
+    that corresponds to the Team Foundation Server Plug-in for Eclipse.  If
+    you don't see this option, use the pull-down menu for Work with and find
+    the update site URL you just entered in the list and select it, then
+    select the check box beside the plug-in mentioned above.
+10. Choose the Next button two times.
+11. If you agree to the Microsoft Software License Terms, accept them and
+    then choose the Finish button.
+12. Restart Eclipse when you are prompted.
+
+
+To install the plug-in from the update site archive:
+1.  Use the link on this page to download
+    TFSEclipsePlugin-UpdateSiteArchive-14.0.3.zip.
+2.  Open Eclipse.
+3.  On the Help menu, choose Install New Software.
+4.  The Install dialog box appears.
+5.  Choose the Add button.
+6.  The Add Repository dialog box appears.
+7.  For the name, enter "Local TFS plug-in for Eclipse update archive".
+8.  Choose the Archive button.
+9.  The Repository archive dialog box appears.
+10. Find and select the downloaded
+    "TFSEclipsePlugin-UpdateSiteArchive-14.0.3.zip" file as the File name.
+11. Choose the Open button.
+12. Choose the OK button.
+13. In the list of features in the Install dialog box, select the check box
+    that corresponds to the Team Foundation Server Plug-in for Eclipse.
+14. Choose the Next button two times.
+15. If you agree to the Microsoft Software License Terms, accept them and
+    then choose the Finish button.
+16. Restart Eclipse when you are prompted.
+
+
+Installing the Cross-platform Command-line Client for Team Foundation Server
+----------------------------------------------------------------------------
+You can perform many version-control operations from the cross-platform
+command-line client for Team Foundation Server.  Before you can use this
+client, you must install it and configure your shell or system path to
+include the installation folder.
+
+To install the Cross-Platform Command-Line Client for Team Foundation Server
+1. Use the link on this page to download TEE-CLC-14.0.3.zip.
+2. Unzip the archive (TEE-CLC-14.0.3.zip file) that contains the client.
+3. Configure your shell or system path to include the folder to which you
+   unzipped the archive.
+4. To verify that the client is working, at a command prompt, type tf, and
+   then press the ENTER key.
+
+If the client is correctly installed, output appears, starting with
+"Microsoft Team Explorer Everywhere Command-line Client (version 14.0.3)".
+
+For information about any of the commands, you can type tf help Command,
+where Command is the name of the command for which you want information.
+For example, you could type tf help checkin.  You can also type tf command
+/help or tf command -help to obtain help.
+--www.microsoft.com/en-us/download/details.aspx?id=47727
+
+
+Filelist
+========
+TEE-CLC-14.0.3.zip (18.2MB)
+TFS Command line cient
+downloaded: March 5, 2019
+https://www.microsoft.com/en-us/download/details.aspx?id=47727
+
+
+Links
+=====
+Anywhere Client
+http://ras-software-blog.com/?p=63
+https://www.microsoft.com/en-us/download/details.aspx?id=47727
+
+Choose the download you want
+File Name              Size
+---------------------------------
+TEE-CLC-14.0.2.zip                              18.0 MB
+TEE-CLC-14.0.3.zip                              18.2 MB   <===
+TFSEclipsePlugin-UpdateSiteArchive-14.0.2.zip   23.8 MB
+TFSEclipsePlugin-UpdateSiteArchive-14.0.3.zip   24.0 MB
+TFS-SDK-14.0.2.zip                              24.2 MB
+TFS-SDK-14.0.3.zip                              24.3 MB
+https://www.microsoft.com/en-us/download/details.aspx?id=47727
+
+You have not selected any file(s) to download.
+Total Size: 0
+Next DirectX End-User Runtime Web Installer
+
+https://www.microsoft.com/en-us/download/details.aspx?id=47727
+
+Microsoft Team Explorer Everywhere 2015 (Out-of-date versions
+14.0.2-14.0.3 for legacy systems)
+Has download link
+https://www.microsoft.com/en-us/download/details.aspx?id=47727
+
+Team Foundation Server: Eclipse and Cross-Platform Tools Forum
+http://go.microsoft.com/fwlink/?LinkId=184187
+
+Using Team Foundation Server For Version Control From A Linux Client
+October 3, 2016 RobStanfield
+Linux, TFS
+http://ras-software-blog.com/?p=63
+
+Visual Studio Developer Center
+http://go.microsoft.com/fwlink/?LinkId=241663
+
