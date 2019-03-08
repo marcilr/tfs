@@ -1,0 +1,18 @@
+links.txt
+Created Fri Mar  8 14:48:54 AKST 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+vsts related links
+
+
+Links
+=====
+Install on Linux
+  Install the VSTS CLI, 11/14/2017
+  https://docs.microsoft.com/en-us/cli/vsts/install?view=vsts-cli-latest#install-on-linux
+
+Visual Studio Team System (VSTS)
+Definition - What does Visual Studio Team System (VSTS) mean?
+https://www.techopedia.com/definition/24372/visual-studio-team-system-vsts
+
