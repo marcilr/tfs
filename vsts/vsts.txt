@@ -18,23 +18,6 @@ VSTS is composed of four subproducts:
 --techopedia.com/definition/24372/...
 
 
-After downloading and installing the vsts command line client:
-i.   Install dependecies:
-     # apatitude install python2.7 python-dev libssl-dev libffi-dev
-
-ii.  Download VSTS CLI command line client installer:
-     $ curl -L https://aka.ms/install-vsts-cli >cli-install
-     $ chmod 755 cli-install
-     $ sha256sum cli-install > cli-install.sha256
-     $ cat cli-install.sha256
-     9ade887a96afeb50ee1ed5e8efa24aac679865b5ae393be8445276734ae82885  cli-install
-     $
-
-     Matches that on:
-       https://docs.microsoft.com/...#install-on-linux
-
-iii. Run installation script:
-     # ./cli-install
 
 
 Commands
