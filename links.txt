@@ -8,16 +8,102 @@ Microsoft Team Foundation Server (TFS) related links
 
 Links
 =====
+Accessing TFS/VSTS 2017 programmatically
+August 7, 2017 | by Dominique St-Amand
+https://www.domstamand.com/accessing-tfs-2017-programmatically/
+
+API Documentation
+https://devopshq.github.io/tfs/api.html
+
+Azure DevOps Server Documentation
+Azure DevOps Server, previously named Visual Studio Team
+Foundation Server, is the on-premises version of Azure DevOps
+Services.  It provides integrated tools to support collaborative
+software development, including Git repositories, continuous
+integration and continuous deployment (CI/CD), and interactive
+Kanban boards.
+https://docs.microsoft.com/en-us/tfs/
+
+Azure Repos (Code)
+Use Git repositories, pull requests, and then integrate with
+CI/CD to build and deploy your apps.
+https://docs.microsoft.com/en-us/azure/devops/repos/index
+
+Git repositories
+Develop code with distributed, flexible version control.
+https://docs.microsoft.com/en-us/azure/devops/repos/git
+
+git-tfs
+A Git/TFS bridge, similar to git-svn http://git-tfs.com/
+git-tfs is a two-way bridge between TFS (Team Foundation Server)
+and git, similar to git-svn.  It fetches TFS commits into a git
+repository, and lets you push your updates back to TFS.
+Looks old and deprecated.  TFS should have git by default.
+https://github.com/git-tfs/git-tfs
+
+How to access Team Foundation Server (TFS) from Linux
+https://stackoverflow.com/questions/1368458/how-to-access-team-foundation-server-tfs-from-linux
+
+How to create a remote TFSGIT Repo programatically?
+https://stackoverflow.com/questions/41718759/how-to-create-a-remote-tfsgit-repo-programatically
+
+Microsoft TFS Python Library (TFS API Python client)
+Looks like useful python integration
+https://devopshq.github.io/tfs/
+
+Microsoft TFS Python Library (TFS API Python client)
+https://devopshq.github.io/tfs/
+
+Microsoft TFS Python Library (TFS API Python client) Documentation
+https://devopshq.github.io/tfs/
+
+Python Script to Access Team Foundation Server (TFS) Rest API
+http://techieroop.com/python-script-to-access-team-foundation-server-tfs-rest-api/
+
+PYTHON CLIENT API FOR TFS REST ABSTRACTION
+https://overmind.me/2016/09/python-client-api-for-tfs-rest-abstraction/
+
+Review code with pull requests
+11/25/2018
+Azure Repos | TFS 2018 | TFS 2017 | TFS 2015 | VS 2017 | VS 2015
+https://docs.microsoft.com/en-us/azure/devops/repos/git/pull-requests?view=tfs-2013&tabs=new-nav
+
+SvnBridge - Use TortoiseSVN with Team Foundation Server
+SvnBridge allows you to use TortoiseSVN and other Subversion
+clients with Team Foundation Server.  It converts the calls
+made by your Subversion client to the API supported by TFS.
+https://archive.codeplex.com/?p=svnbridge
+
 Team Foundation Server - Visual Studio - Microsoft
 https://visualstudio.microsoft.com/tfs/
 
 tf Command - Line Utility Tool in TFS
 http://www.tfstutorial.com/tf-command
 
+TFS automation with Python
+A few good links here
+https://stackoverflow.com/questions/46602227/tfs-automation-with-python
+
+TFSClientAPI.py
+https://github.com/Deunze/TFSClientAPI/blob/master/TFSClientAPI.py
+
+Use SSH key authentication
+09/25/2018
+Azure Repos | TFS 2018 | TFS 2017 | TFS 2015 Update 3
+https://docs.microsoft.com/en-us/azure/devops/repos/git/use-ssh-keys-to-authenticate?view=azdevops
+
 Use Team Foundation version control commands
 08/09/2016
 https://docs.microsoft.com/en-us/azure/devops/repos/tfvc/use-team-foundation-version-control-commands?view=azure-devops
 
-USING TEAM FOUNDATION SERVER FOR VERSION CONTROL FROM A LINUX CLIENT
-OCTOBER 3, 2016 ROBSTANFIELD
+Use Visual Studio and Team Foundation Server with Git
+09/09/2018
+https://docs.microsoft.com/en-us/azure/devops/repos/git/overview-2013?view=tfs-2013
+
+Using Team Foundation Server For Version Control From A Linux Client
+October 3, 2016 RobStanfield
 http://ras-software-blog.com/?p=63
+
+Visual Studio 2017
+This has a tfs plugin
+https://visualstudio.microsoft.com/downloads/#d-team-explorer-everywhere
