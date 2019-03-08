@@ -8,6 +8,9 @@ Filelist
 links.txt
   Microsoft Team Foundation Server (TFS) related links
 
+syntax/
+  TFS syntax
+
 tf/
   Microsoft Team Foundation Server (TFS) client
 
