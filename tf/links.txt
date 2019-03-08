@@ -1,0 +1,12 @@
+links.txt
+Created Fri Mar  8 10:56:21 AKST 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+tf related links
+
+
+Links
+=====
+tf Command - Line Utility Tool in TFS
+http://www.tfstutorial.com/tf-command
