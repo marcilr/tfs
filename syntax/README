@@ -5,8 +5,19 @@ by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+create-tfs-repo-programmatically.txt
+  Create TFS repo programmatically
+  --How to create a remote TFSGIT Repo programatically?
+  https://stackoverflow.com/questions/41718759/how-to-create-a-remote-tfsgit-repo-programatically
+
 create-new-project.txt
   Create new project
+
+delete-repo.txt
+  Delete repository in tfs online
+
+send-http-request-from-unix.txt
+  Send HTTP request from UNIX
 
 ssl.txt
   The tfs (Team Foundation Server) supports ssl public key
