@@ -8,5 +8,14 @@ tf related links
 
 Links
 =====
+Anywhere Client
+Linux tfs cli client
+https://www.microsoft.com/en-us/download/details.aspx?id=47727
+
 tf Command - Line Utility Tool in TFS
 http://www.tfstutorial.com/tf-command
+
+Using Team Foundation Server For Version Control From A Linux Client
+October 3, 2016 RobStanfield
+Has notes on Anywhere Client configuration
+http://ras-software-blog.com/?p=63
