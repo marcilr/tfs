@@ -1,0 +1,52 @@
+create-tfs-repo-programmatically.txt
+Created Tue Jan 29 14:16:10 AKST 2019
+by Raymond E. Marcil <ray.marcil@alaska.gov>
+
+
+Create TFS repo programmatically
+
+
+How to create a remote TFSGIT Repo programatically?
+===================================================
+Is there any API I could use in order to create a new GIT Repo
+in the remote TFS Server?
+
+Ideally something like
+  New-GitRepo -server myServer -team team1 -name myRepo
+
+if there isn't a powershell api, i can do with a RESTful HTTP endpoint
+--edited Sep 11 '18 at 21:41
+  Community
+  asked Jan 18 '17 at 11:53
+  Sebastian Slutzky
+
+
+The answer is in the docs:
+  https://www.visualstudio.com/en-us/docs/integrate/api/git/repositories#create-a-repository
+
+Use the REST API:
+
+POST https://{instance}/DefaultCollection/_apis/git/repositories/?api-version={version}
+Content-Type: application/json
+
+{
+  "name": {string},
+  "project": {
+    "id": {guid}
+  }
+}
+
+Though I don't know exactly from which TFS version this API
+became available.  Given you tagged TFS2015 and the API
+compatibility has changed from RTM to update 3.
+--answered Jan 18 '17 at 12:37
+  jessehouwing
+
+--stackoverflow.com/questions/41718759/
+
+
+
+Links
+=====
+How to create a remote TFSGIT Repo programatically?
+https://stackoverflow.com/questions/41718759/how-to-create-a-remote-tfsgit-repo-programatically
