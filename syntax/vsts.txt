@@ -1,0 +1,48 @@
+vsts.txt
+Created Fri Mar  8 14:09:24 AKST 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Visual Studio Team System (VSTS) is an integrated development
+environment (IDE) developed as a software product by Microsoft Corp.
+to facilitate software project creation, development and management.
+VSTS is composed of four subproducts:
+
+1. Visual Studio, a development environment
+2. Visual Studio Test Professional for test data management 
+   and test case execution
+3. Team Foundation Server, which offers collaboration of source
+   code files and centralized database
+4. Visual Studio Lab Management, which provides features to create
+   a virtual environment for software testers
+--techopedia.com/definition/24372/...
+
+
+After downloading and installing the vsts command line client:
+i.   Install dependecies:
+     # apatitude install python2.7 python-dev libssl-dev libffi-dev
+
+ii.  Download VSTS CLI command line client installer:
+     $ curl -L https://aka.ms/install-vsts-cli >cli-install
+     $ chmod 755 cli-install
+     $ sha256sum cli-install > cli-install.sha256
+     $ cat cli-install.sha256
+     9ade887a96afeb50ee1ed5e8efa24aac679865b5ae393be8445276734ae82885  cli-install
+     $
+
+     Matches that on:
+       https://docs.microsoft.com/...#install-on-linux
+
+iii. Run installation script:
+     # ./cli-install
+
+
+Links
+=====
+Install on Linux
+  Install the VSTS CLI, 11/14/2017
+  https://docs.microsoft.com/en-us/cli/vsts/install?view=vsts-cli-latest#install-on-linux
+
+Visual Studio Team System (VSTS)
+Definition - What does Visual Studio Team System (VSTS) mean?
+https://www.techopedia.com/definition/24372/visual-studio-team-system-vsts
