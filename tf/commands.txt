@@ -1,0 +1,146 @@
+commands.txt
+Created Fri Mar  8 12:50:42 AKST 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+
+tf Command - Line Utility Tool in TFS
+=====================================
+Great tf command syntax from:
+  tf Command - Line Utility Tool in TFS
+  http://www.tfstutorial.com/tf-command
+
+
+tf Command line utility provide many useful operations that we
+can perform with Team Foundation Server.  Here is a list and
+commands purpose.
+
+tf add – adds news folder and file from file system to TFS
+         Source Control.  Need to do check-in before these
+         file can be visible.
+tf add itemspec [/lock:none|checkin|checkout] [/type:filetype] [/noprompt] [/recursive]
+
+
+tf branch - copies an item/s from one location to another inside
+            TFS Source Control. Need to do check-in before these
+            file can be visible.
+tf branch olditem newitem [/version:versionspec] [/noget] [/lock] [/noprompt]
+
+
+tf branches - displays the history of a branch which can be a file or a folder.
+tf branches [/server:servername] itemspec [/version]
+
+
+tf changeset – displays info about changesets such as comments, 
+               notes and etc
+tf changeset [/comment:comment|@commentfile] [/server:servername] [/notes:(“NoteFieldName”=”NoteFieldValue”|@notefile)] [/noprompt] [changesetnumber | /latest]
+
+
+tf checkin – checks in pending changes to the TFS Source Control.
+tf checkin [/author:author name] [/comment:("comment"|@comment file)] [/noprompt] [/notes:(“Note Name”=”note text”|@notefile)] [/override:reasonfile|@reason] [/recursive] [/saved] [/validate] [filespec]
+
+
+tf checkout – checks out local files for edit.
+tf checkout [/lock:(none|checkin|checkout)] [/recursive] [/type:encoding] itemspec
+
+tf configure – updates Source Control Settings with modified Check-out settings; Check-in policies; Check-in notes
+tf configure [path of team project] /server:servername
+
+tf delete - removes files and folders from TFS
+tf delete [/lock:(none|checkin|checkout)] [/recursive] itemspec
+
+tf diff - displays differences between two files or a shelveset
+tf diff[erence] itemspec [/version:versionspec] [/type:filetype] [/format:format [/ignorespace] [/ignoreeol] [/ignorecase] [/recursive] [/options]
+tf diff[erence] itemspec itemspec2 [/type:filetype] [/format: format] [/ignorespace] [/ignoreeol] [/ignorecase] [/recursive] [/options]
+tf diff[erence] [/shelveset:shelvesetname[;shelvesetowner]] shelveset_itemspec [/server: servername] [/type:filetype] [/format: format] [/ignorespace] [/ignoreeol] [/ignorecase] [/recursive] [/options]
+tf diff[erence] /configure
+
+tf dir - presents the contents of the TFS Source Control server
+tf dir [/server:servername] itemspec [/version:versionspec] [/recursive] [/folders] [/deleted]
+
+tf get – gets a read-only copy of a file from the TFS to the workspace and creates folders with the file on the disk.
+tf get itemspec [/version:versionspec] [/all] [/overwrite] [/force] [/preview] [/recursive] [/noprompt]
+
+tf help - shows help topics about TFS command.
+tf help commandname
+
+tf history - shows history of revisions for file/s and folders.
+tf history [/server:servername] itemspec [/version:versionspec] [/stopafter:number] [/recursive] [/user:username] [/format:(brief|detailed)] [/slotmode] [/noprompt]
+
+tf label – creates or removes a label from a version of a file or folder
+tf label [/server:servername] labelname[@scope] [/owner:ownername] itemspec [/version:versionspec] [/comment:("comment"|@commentfile)] [/child:(replace|merge)] [/recursive]
+tf label [/server:servername] /delete labelname[@scope] [/owner:ownername] itemspec [/version:versionspec] [/recursive]
+
+tf labels – shows labels in the TFS
+tf labels [/owner:ownername] [/format:(brief|detailed)] [/server:servername] [labelname]
+
+tf lock - locks or unlocks a file or folder
+tf lock itemspec /lock:(none|checkout|checkin) [/workspace:workspacename] [/server:servername] [/recursive]
+
+tf merge - applies changes from one branch into another
+tf merge [/recursive] [/force] [/candidate] [/discard] [/version:versionspec] [/lock:none|checkin|checkout] [/preview] [/baseless] [/nosummary] source destination
+
+tf merges - shows detailed information about past merges between branches
+tf merges [/server:servername] [source] destination [/recursive]
+
+tf properties - presents info about items under TFS Source Control
+tf properties [/server:servername] [/recursive] itemspec [/version:versionspec] [/workspace]
+
+tf rename - renames files or folder paths. Also used to move files or folders.
+tf rename [/lock:(none|checkout|checkin)] olditem newitem
+
+tf resolve - resolves conflicts between changed items
+tf resolve [itemspec] [/auto:(AcceptMerge|AcceptTheirs|AcceptYours|OverwriteLocal|DeleteConflict|AcceptYoursRenameTheirs)] [/preview] [(/overridetype:overridetype | /converttotype:converttype)] [/recursive] [/newname:path]
+
+tf shelve – stores or deletes pending changes with check-in notes, a comment, and work items.
+tf shelve [/replace] [/comment:(@commentfile|"comment")] [shelvesetname[;owner] [/validate]
+tf shelve [/move] [/replace] [/comment:(@commentfile|"comment")] [/recursive] shelvesetname[;owner] filespec [/validate]
+tf shelve /delete [/server:servername] shelvesetname[;owner] [/validate]
+
+tf shelvsets - shows info about a set of shelved changes inside TFS Source Control
+tf shelvesets [/owner:ownername] [/format:(brief|detailed)] [/server:servername] shelvesetname
+
+tf status - shows info about pending changes to items
+tf status itemspec [/server:servername] ([/workspace:workspacename[;workspaceowner]] | [/shelveset:shelvesetname[;shelvesetowner]]) [/format:(brief|detailed)] [/recursive] [/user:(*|username)]
+
+tf undelete – restores deleted items
+tf undelete [/noget] [/lock:(none|checkin|checkout)] [/newname:name] [/recursive] itemspec[;deletionID]
+
+tf undo - removes pending changes from a TFS workspace
+tf undo [/workspace:workspacename[;workspaceowner]] [/server:servername] [/recursive] itemspec [/noprompt]
+
+tf unlabel - removes an item from an existing label
+tf unlabel [/server:servername] [/recursive] labelname itemspec
+
+tf unshelve - restores shelved file revisions, check-in notes, comments, and work items.
+tf unshelve [/move] [shelvesetname[;username]] itemspec [/recursive] [/noprompt]
+
+tf view - retrieves a specific version of a file to a disk
+tf view [/server:servername] [/console] [/recursive] [/shelveset:shelvesetname[;owner]] [/noprompt] itemspec [/version:versionspec]
+
+tf workfold - creates, updates, or displays info about the mappings between your workspace and TFS Source Control
+tf workfold localfolder
+tf workfold [/workspace: workspacename]
+tf workfold [/server:servername] [/workspace: workspacename] serverfolder
+tf workfold [/map serverfolder localfolder] [/server:servername] [/workspace: workspacename] (serverfolder|localfolder)
+tf workfold /unmap [/server:servername] [/workspace: workspacename] [/recursive] (serverfolder|localfolder)
+tf workfold /cloak (Team Foundation source control serverfolder|localfolder) [/workspace: workspacename] [/s:servername]
+tf workfold /decloak (serverfolder|localfolder) [/workspace: workspacename] [/s:servername]
+
+tf workspace - creates, modifies and views properties and mappings
+tf workspace /new [/noprompt] [/template:workspacename[;workspaceowner]] [/computer:computername] [/comment:(“comment”|@comment file)] [/s:servername] [workspacename[;workspaceowner]]
+tf workspace /delete [/server:servername] workspacename[;workspaceowner]
+tf workspace [/server:servername] [/comment:comment] [/newname:workspacename] [workspacename[;workspaceowner]]
+
+tf workspaces - displays info about workspaces in the system
+tf workspaces [/owner:ownername] [/computer:computername] [/server:servername] [/format:(brief|detailed)] [/updateUserName:oldUserName] [/updateComputerName:oldComputerName] workspacename
+tf workspaces /remove:(*|workspace1[,workspace2,...]) /server:(*|server)
+--tf Command - Line Utility Tool in TFS
+  http://www.tfstutorial.com/tf-command
+
+
+Links
+=====
+tf Command - Line Utility Tool in TFS
+http://www.tfstutorial.com/tf-command
+
