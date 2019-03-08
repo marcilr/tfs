@@ -29,6 +29,11 @@ Use Git repositories, pull requests, and then integrate with
 CI/CD to build and deploy your apps.
 https://docs.microsoft.com/en-us/azure/devops/repos/index
 
+Create a new Git repo
+09/09/2018
+Only cover online creation
+https://docs.microsoft.com/en-us/azure/devops/repos/git/creatingrepo?view=azure-devops&tabs=visual-studio
+
 Git repositories
 Develop code with distributed, flexible version control.
 https://docs.microsoft.com/en-us/azure/devops/repos/git
@@ -46,6 +51,10 @@ https://stackoverflow.com/questions/1368458/how-to-access-team-foundation-server
 
 How to create a remote TFSGIT Repo programatically?
 https://stackoverflow.com/questions/41718759/how-to-create-a-remote-tfsgit-repo-programatically
+
+Install the VSTS CLI
+11/14/2017
+https://docs.microsoft.com/en-us/cli/vsts/install?view=vsts-cli-latest#install-on-linux
 
 Microsoft TFS Python Library (TFS API Python client)
 Looks like useful python integration
