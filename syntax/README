@@ -23,3 +23,18 @@ ssl.txt
   The tfs (Team Foundation Server) supports ssl public key
   for checkouts and commits.
 
+vsts.txt
+  Visual Studio Team System (VSTS) is an integrated development
+  environment (IDE) developed as a software product by Microsoft Corp.
+  to facilitate software project creation, development and management.
+  VSTS is composed of four subproducts:
+
+  1. Visual Studio, a development environment
+  2. Visual Studio Test Professional for test data management
+     and test case execution
+  3. Team Foundation Server, which offers collaboration of source
+     code files and centralized database
+  4. Visual Studio Lab Management, which provides features to create
+     a virtual environment for software testers
+  --Visual Studio Team System (VSTS)
+    https://www.techopedia.com/definition/24372/visual-studio-team-system-vsts
