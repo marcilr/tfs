@@ -1,0 +1,21 @@
+cmds.txt
+Created Fri Mar  8 14:32:00 AKST 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+vsts commands
+
+After doing intial configuration, see conf.txt, vsts advised:
+
+You're all set! Here are some commands to try:
+ $ vsts login
+ $ vsts code pr list
+ $ git pr list
+ $ vsts feedback
+
+Trying 'vsts login':
+$ vsts login
+Token: <the usual>
+$
+
+Nothing from that.
+
