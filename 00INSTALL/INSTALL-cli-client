@@ -1,0 +1,113 @@
+INSTALL-cli-client
+Created Fri Mar  8 13:00:01 AKST 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Install the tf command line client (VSTS CLI)
+on Debian Stretch v9.6 amd64
+
+
+1. Install prerequisites:
+   o Python 2 or 3
+   o Other packages: libssl-dev, libffi-dev, and python-dev
+
+   On Debian 9.8 amd64 installed:
+     python2.7 - Interactive high-level object-oriented language (version 2.7)
+     python-dev - header files and a static library for Python (default)
+     libssl-dev - Secure Sockets Layer toolkit - development files
+     libffi-dev - Foreign Function Interface library (development files)
+
+  Dependency installation:
+  # apatitude install python2.7 python-dev libssl-dev libffi-dev
+  ...
+  Setting up libpython2.7-dev:amd64 (2.7.13-2+deb9u3) ...
+  Setting up libssl-doc (1.1.0j-1~deb9u1) ...
+  Setting up python2.7-dev (2.7.13-2+deb9u3) ...
+  Setting up libpython-dev:amd64 (2.7.13-2) ...
+  Setting up python-dev (2.7.13-2) ...
+  #
+
+2. Get VSTS CLI command line client:
+  $ curl -L https://aka.ms/install-vsts-cli >cli-install
+  $ chmod 755 cli-install
+  $ sha256sum cli-install > cli-install.sha256
+  $ cat cli-install.sha256
+  9ade887a96afeb50ee1ed5e8efa24aac679865b5ae393be8445276734ae82885  cli-install
+  $
+
+  Matches that on:
+    Install the VSTS CLI, 11/14/2017
+    https://docs.microsoft.com/en-us/cli/vsts/install?view=vsts-cli-latest#install-on-linux
+
+--Install on Linux
+  Install the VSTS CLI, 11/14/2017
+  https://docs.microsoft.com/en-us/cli/vsts/install?view=vsts-cli-latest#install-on-linux
+
+
+3. Run installation script:
+# ./cli-install
+Downloading Microsoft VSTS CLI install script from https://github.com/Microsoft/vsts-cli/releases/download/0.1.4/install.py to /tmp/vsts_cli_install_tmp_dia4.
+######################################################################## 100.0%
+/tmp/vsts_cli_install_tmp_dia4: OK
+/usr/bin/python
+
+Microsoft Visual Studio Team Services CLI Install
+-- Verifying Python version.
+-- Python version 2.7.13 okay.
+-- Verifying native dependencies.
+--  Executing: 'dpkg -s libssl-dev libffi-dev python-dev build-essential'
+--  Native dependencies OK
+
+Installation directory for VSTS CLI (default: /root/lib/vsts-cli): \
+/usr/local/lib/vsts-cli
+-- Creating directory '/usr/local/lib/vsts-cli'.
+
+Installing. This may take a few minutes...
+-- Downloading virtualenv package from https://pypi.python.org/packages/source/v/virtualenv/virtualenv-15.0.0.tar.gz.
+-- Checksum of /tmp/tmpSgHII_/virtualenv-15.0.0.tar.gz OK.
+-- Extracting '/tmp/tmpSgHII_/virtualenv-15.0.0.tar.gz' to '/tmp/tmpSgHII_'.
+-- Executing: ['/usr/bin/python', 'virtualenv.py', '--python', '/usr/bin/python', '/usr/local/lib/vsts-cli']
+Already using interpreter /usr/bin/python
+New python executable in /usr/local/lib/vsts-cli/bin/python
+Installing setuptools, pip, wheel...
+...
+<downloaded many dependencies>
+...
+-- Executing: ['/usr/local/lib/vsts-cli/bin/python', '/tmp/tmpSgHII_/cli-check-credential-storage.py']
+-- Executing: ['/usr/local/lib/vsts-cli/bin/pip', 'install', 'keyrings.alt']
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+Collecting keyrings.alt
+  Downloading https://files.pythonhosted.org/packages/f2/97/e0601ee8e936a13245686af0ac9ed2e2bb61706b4155e4e629cf063ad248/keyrings.alt-3.1.1-py2.py3-none-any.whl
+Requirement already satisfied: six in /usr/local/lib/vsts-cli/lib/python2.7/site-packages (from keyrings.alt) (1.12.0)
+Installing collected packages: keyrings.alt
+Successfully installed keyrings.alt-3.1.1
+-- Created tab completion file at '/usr/local/lib/vsts-cli/vsts.completion'
+
+Add VSTS CLI to your $PATH and enable tab completion? (Y/n): Y
+Path to bashrc file to update (default: /root/.bashrc): /home/remarcil/.bashrc
+-- Backed up '/home/remarcil/.bashrc' to '/home/remarcil/.bashrc.backup'
+-- Tab completion set up complete.
+-- If tab completion is not activated, verify that '/home/remarcil/.bashrc' is sourced by your shell.
+
+Installation successful!
+
+To run VSTS CLI: vsts
+
+Note: you may need to restart your shell (exec -l $SHELL)
+
+# 
+
+
+
+Links
+=====
+Install on Linux
+https://docs.microsoft.com/en-us/cli/vsts/install?view=vsts-cli-latest#install-on-linux
+
+Install the VSTS CLI
+11/14/2017
+VSTS CLI is a command line interface for Azure DevOps Services
+and Team Foundation Server (TFS).  With the VSTS CLI, you can
+manage and work with resources including pull requests, work
+items, builds, and more.
+https://docs.microsoft.com/en-us/cli/vsts/install?view=vsts-cli-latest
