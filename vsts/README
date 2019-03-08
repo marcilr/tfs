@@ -11,6 +11,9 @@ cmds.txt
 conf.txt
   Configuration of vsts
 
+INSTALL
+  Installation of vsts on Debian 9.8 am64 oracle vm virtualbox
+
 vsts.txt
   Visual Studio Team System (VSTS) is an integrated development
   environment (IDE) developed as a software product by Microsoft Corp.
