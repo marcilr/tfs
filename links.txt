@@ -74,6 +74,10 @@ clients with Team Foundation Server.  It converts the calls
 made by your Subversion client to the API supported by TFS.
 https://archive.codeplex.com/?p=svnbridge
 
+Team Foundation Server
+From Wikipedia, the free encyclopedia
+https://en.wikipedia.org/wiki/Team_Foundation_Server
+
 Team Foundation Server - Visual Studio - Microsoft
 https://visualstudio.microsoft.com/tfs/
 
