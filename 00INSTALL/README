@@ -1,0 +1,17 @@
+README
+Created Fri Mar  8 13:36:51 AKST 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+INSTALL
+  Installation of tf (Microsoft team foundation client)
+  on Debian Stretch v9.6 amd64 vm
+
+INSTALL-cli-client
+  Install the tf command line client (VSTS CLI)
+  on Debian Stretch v9.6 amd64 vm
+  --Install the VSTS CLI, 11/14/2017
+    https://docs.microsoft.com/en-us/cli/vsts/install?view=vsts-cli-latest#install-on-linux
+
