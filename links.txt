@@ -10,3 +10,7 @@ Links
 =====
 Team Foundation Server - Visual Studio - Microsoft
 https://visualstudio.microsoft.com/tfs/
+
+Use Team Foundation version control commands
+08/09/2016
+https://docs.microsoft.com/en-us/azure/devops/repos/tfvc/use-team-foundation-version-control-commands?view=azure-devops
