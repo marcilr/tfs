@@ -8,3 +8,8 @@ Filelist
 conf.txt
   Configuration of vsts
 
+tokens.txt
+  Tokens
+  --Authenticate access with personal access tokens
+    01/24/2019
+    https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops
