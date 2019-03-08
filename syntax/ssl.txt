@@ -1,0 +1,17 @@
+ssl.txt
+Created Tue, Nov 27, 2018  1:51:23 PM
+by Raymond E. Marcil <ray.marcil@alaska.gov>
+
+
+The tfs (Team Foundation Server) supports ssl public key
+for checkouts and commits.
+
+
+1. At http://dnratwtfs:8080/tfs:
+click User pull-down on upper-right
+click My profile
+click SSH KEYS on right
+
+2. At USER PROFILE
+under YOUR PUBLIC KEYS
+click Add an SSH public key
