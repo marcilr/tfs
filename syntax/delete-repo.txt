@@ -1,0 +1,46 @@
+delete-repo.txt
+Created Fri Feb  8 13:00:01 AKST 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Delete repository in tfs online
+
+
+1. Login to online TFS at:
+   https://dnratwtfsp/Sandboxes/_admin
+
+2. Go to Overview
+   click square icon in upper left for Sandboxes
+   hover over gear in center
+   click Overview
+
+3. To delete TFS git repository, under Project name,
+   hover over repo to delete
+   click ... displayed to right of repo name
+   click Delete
+
+4. At Delete Project popup
+   Warning: Please read the following carefully before proceeding!
+
+   Are you ABSOLUTELY sure?  This action CANNOT be undone.
+   This will permanently delete the team project search.
+   Deletion includes all work items, source control items,
+   teams, builds, and other artifacts within the team project.
+
+   Please type the name of the team project to confirm.
+     type repo name in box (in this case 'search' repo - Feb 8, 2019)
+
+   click Delete Project
+
+5. Watch project deletion popup:
+
+   Delete Project
+   Deleting project "search"
+   Deleting team project...
+   ...
+   Delete Project
+   Deleting project "search"
+   Project "search" successfully deleted.
+   
+   click Close
+
