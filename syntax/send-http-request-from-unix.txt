@@ -1,0 +1,13 @@
+send-http-request-from-unix.txt
+Created Tue Jan 29 15:21:30 AKST 2019
+by Raymond E. Marcil <ray.marcil@alaska.gov>
+
+
+Send HTTP request from UNIX
+
+
+Links
+=====
+How to send HTTP request from UNIX or Linux? Use curl or wget command
+Some good GET and POST examples using wget and curl
+https://javarevisited.blogspot.com/2015/10/how-to-send-http-request-from-unix-or-linux-curl-wget-example.html
