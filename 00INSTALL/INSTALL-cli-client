@@ -103,6 +103,18 @@ This installed:
   vsts-cli (0.1.4)
   $
 
+Also noticed creation of:
+
+~/.vsts/
+  cli/
+  python-sdk/
+
+Suppose technical uncertain if this was created on 
+installation or first run with:
+  $ vsts login
+  Token: 
+  $ 
+
 4. Create vsts alias in ~/.bash_aliases
 alias vsts='/usr/local/lib/vsts-cli/local/bin/vsts'
 
