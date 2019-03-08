@@ -8,6 +8,45 @@ Configuration of vsts
 
 Fri Mar  8 14:21:35 AKST 2019
 =============================
+o Do initial vsts configuration on Debian 9.8 amd64 oracle vm virtualbox:
+
+$ vsts configure
+
+Welcome to the VSTS CLI! This command will guide you through setting some default values.
+
+Your settings can be found at /home/remarcil/.vsts/cli/config
+Your current configuration is as follows:
+
+[core]
+first_run = yes
+
+Do you wish to change your settings? (y/N): y
+
+What default output format would you like?
+ [1] json - JSON formatted output that most closely matches API responses
+ [2] jsonc - Colored JSON formatted output that most closely matches API responses
+ [3] table - Human-readable output format
+ [4] tsv - Tab and Newline delimited, great for GREP, AWK, etc.
+Please enter a choice [1]: 3
+
+Configure aliases for Git (to enable commands like "git pr list")? (Y/n): Y
+
+Would you like to enable logging to file? (y/N): y
+
+Microsoft would like to collect anonymous VSTS CLI usage data to improve
+our CLI.  Participation is voluntary and when you choose to participate,
+your device automatically sends information to Microsoft about how you
+use the VSTS CLI.  The data is anonymous and does not include commandline
+argument values.  To update your choice, run "vsts configure" again.
+Select y to enable data collection. (Y/n): n
+
+You're all set! Here are some commands to try:
+ $ vsts login
+ $ vsts code pr list
+ $ git pr list
+ $ vsts feedback
+
+$
 
 
 o Initial run of vsts installed on Debian 9.8 amd64 oracle vm virtualbox:
