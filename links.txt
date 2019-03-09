@@ -34,6 +34,9 @@ Create a new Git repo
 Only cover online creation
 https://docs.microsoft.com/en-us/azure/devops/repos/git/creatingrepo?view=azure-devops&tabs=visual-studio
 
+Deploy an agent on Linux, 11/28/2018
+https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-linux?view=azure-devops
+
 Git repositories
 Develop code with distributed, flexible version control.
 https://docs.microsoft.com/en-us/azure/devops/repos/git
