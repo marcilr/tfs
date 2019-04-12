@@ -8,6 +8,10 @@ vsts related links
 
 Links
 =====
+Get started with the VSTS CLI
+11/14/2017
+https://docs.microsoft.com/en-us/cli/vsts/get-started?view=vsts-cli-latest
+
 Install on Linux
   Install the VSTS CLI, 11/14/2017
   https://docs.microsoft.com/en-us/cli/vsts/install?view=vsts-cli-latest#install-on-linux
@@ -16,3 +20,5 @@ Visual Studio Team System (VSTS)
 Definition - What does Visual Studio Team System (VSTS) mean?
 https://www.techopedia.com/definition/24372/visual-studio-team-system-vsts
 
+VSTS CLI
+https://docs.microsoft.com/en-us/cli/vsts/overview?view=vsts-cli-latest
