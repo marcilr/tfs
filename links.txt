@@ -118,6 +118,7 @@ https://docs.microsoft.com/en-us/azure/devops/repos/git/overview-2013?view=tfs-2
 
 Using Team Foundation Server For Version Control From A Linux Client  <=== Shows setup & config
 October 3, 2016 RobStanfield
+However, think the client referenced here is out of date
 http://ras-software-blog.com/?p=63
 
 Visual Studio 2017
