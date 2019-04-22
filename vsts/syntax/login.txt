@@ -1,0 +1,11 @@
+login.txt
+Created Mon Apr 22 11:23:44 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Login
+
+Need configure token on TFSP server:
+
+$ vsts login
+Token: 
