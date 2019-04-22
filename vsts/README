@@ -14,6 +14,9 @@ INSTALL
 links.txt
   vsts related links
 
+syntax/
+  Syntax
+
 vsts.txt
   Visual Studio Team System (VSTS) is an integrated development
   environment (IDE) developed as a software product by Microsoft Corp.
