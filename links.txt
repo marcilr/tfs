@@ -116,7 +116,7 @@ Use Visual Studio and Team Foundation Server with Git
 09/09/2018
 https://docs.microsoft.com/en-us/azure/devops/repos/git/overview-2013?view=tfs-2013
 
-Using Team Foundation Server For Version Control From A Linux Client
+Using Team Foundation Server For Version Control From A Linux Client  <=== Shows setup & config
 October 3, 2016 RobStanfield
 http://ras-software-blog.com/?p=63
 
