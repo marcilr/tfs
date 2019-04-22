@@ -1,0 +1,27 @@
+vsts.txt
+Created Mon Apr 22 11:17:17 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+VSTS CLI
+
+
+$ vsts configure
+
+Welcome to the VSTS CLI! This command will guide you through setting some default values.
+
+Your settings can be found at /home/remarcil/.vsts/cli/config
+Your current configuration is as follows:
+
+[core]
+first_run = yes
+
+Do you wish to change your settings? (y/N): N
+
+You're all set! Here are some commands to try:
+ $ vsts login
+ $ vsts code pr list
+ $ vsts feedback
+
+$
+
