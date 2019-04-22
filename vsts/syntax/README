@@ -8,5 +8,8 @@ Filelist
 syntax.txt
   Syntax
 
+token.txt
+  Tokens in vsts
+
 vsts.txt
   VSTS CLI
