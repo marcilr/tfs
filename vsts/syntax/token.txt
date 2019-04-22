@@ -1,0 +1,22 @@
+token.txt
+Created Mon Apr 22 12:33:21 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Tokens in vsts
+
+
+1. When logging in online
+click person icon (upper right)
+click Security
+
+2. Under Security
+click Personal access tokens
+click Add
+
+3. At https://dnratwtfsp/Sandboxes/_projects
+Description: TFSP
+Expire in:   1 year
+The token:   ***
+
+
